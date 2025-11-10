@@ -25,13 +25,13 @@ public class Cheers {
                   anOrA = " an ";   
                 }
                 else {
-                        anOrA = " a ";
+                        anOrA = " a  ";
                 }
-                System.out.println("Give me" + anOrA + word.charAt(i) + "!");
+                System.out.println("Give me" + anOrA + word.charAt(i) + ": " + word.charAt(i) + "!");
             }
             System.out.println("What does that spell?");
             for (int i = 0; i < num; i++) {
-                System.out.println(word + "! ! !");
+                System.out.println(word + "!!!");
         }
 }
 }
