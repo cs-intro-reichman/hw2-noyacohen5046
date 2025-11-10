@@ -12,7 +12,7 @@ public class CalcPi {
 			sign = sign * (-1.0);
 		} 
 		double piApprox = sum*4.0;
-		System.out.println("pi, according to Java: " +Math.PI);
-		System.out.println("pi, approximated: " + piApprox);
+		System.out.println("pi according to Java: " +Math.PI);
+		System.out.println("pi, approximated:     " + piApprox);
 	}
 }
